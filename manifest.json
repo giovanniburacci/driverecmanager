@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Drive Rec Manager",
+    "description": "This small extension can help managing video rate as you like",
+    "content_security_policy": "script-src 'self' 'sha256-B+Qe/KNUDtGDd/m1g5ycAq1DgpLs9ubKmYTlOHBogC8='; object-src 'self'",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "./assets/icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
+  
